@@ -802,6 +802,24 @@ footer h1 {
         margin-left: 1px;
     }
 
+    .navegacao li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        color: var(--white-header);
+        letter-spacing: 2px;
+        position: relative;
+        transition: .5s;
+        font-size: 10pt;
+    }
+    
+    .navegacao li a:active {
+        letter-spacing: 0px;
+        color: var(--white-mode);
+        filter: drop-shadow(3px 3px 10px var(--header-shadow));
+        cursor: pointer;
+    }
+
     .navegacao li a:hover::after {
         width: 0%;
         filter: drop-shadow(0px 0px 0 var(--header-shadow));
