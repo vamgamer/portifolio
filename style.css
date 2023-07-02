@@ -778,7 +778,8 @@ footer h1 {
     width: 280px;
 }
 
-.contato h1{
+.contato h3{
+    text-align: center;
     color: #fff;
     background-color: transparent;
     font-weight: normal;
