@@ -774,6 +774,65 @@ footer h1 {
     color: var(--color-footer);
 }
 
+.contato{
+    width: 280px;
+}
+
+.contato h1{
+    color: #fff;
+    background-color: transparent;
+    font-weight: normal;
+    border: none;
+}
+.contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.contato form input{
+    border: 2px solid #3116eb;
+    background-color: #555;
+    color: #fff;
+    outline: none;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.contato textarea{
+    border: 2px solid #3116eb;
+    background-color: #555;
+    color: #fff;
+    padding: 5px;
+    outline: none;
+
+}
+
+.contato .button{
+    background-color: #3116eb;
+    color: #000;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.contato .button:hover{
+    letter-spacing: 2px;
+    background-color: #170681;
+}
+
+::placeholder{
+    color: #262626;
+    position: absolute;
+    font-size: 11pt;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 @media (max-width: 580px) {
 
     html:active,

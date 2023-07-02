@@ -303,9 +303,21 @@
                     <li><a href="#projects">Projects</a></li>
                 </ul>
             </div>
-            <div class="apresentacao">
-                <h3>Apresentação em video:</h3>
-                <video src="img/videoteste.mp4" controls poster="img/fotovideo.jpg.jpeg"></video>
+
+            <div class="contato">
+                <h1>Contato via E-mail.</h1>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="ac6edbf0-c5b0-406f-9da9-6601c8bf714b">
+                    <input type="text" name="name" id="name" placeholder="Seu nome.">
+                    
+
+                    <input type="email" name="email" id="mail" placeholder="Seu E-mail.">
+                    
+
+                    <textarea name="msg" id="msg" cols="30" rows="10" style="resize: none;" placeholder="Sua mensagem!"></textarea>
+                    <input type="hidden" name="redirectTo" value="https://example.com/contact/index.html">
+                    <input type="submit" value="Enviar" class="button">
+                </form>
             </div>
             <div class="contact">
                 <h3>Midias para contato:</h3>
