@@ -5,6 +5,11 @@ const btnHbs = document.querySelector('#btn-hbs')
 const sectionHbs = document.querySelector('.hobbies')
 const hamburguer = document.querySelector('.hamburguer')
 const navegacao = document.querySelector('.navegacao')
+const armazenar = localStorage.getItem("darkMode")
+
+if (localStorage.getItem("darkMode")){
+    localStorage.setItem("darkMode", "lightMode")
+}
 
 hamburguer.addEventListener('click', ()=>{
     navegacao.classList.toggle('hide')

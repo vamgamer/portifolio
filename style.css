@@ -165,14 +165,14 @@ body {
 
 ::-webkit-scrollbar {
     background-color: var(--grey2-scrollbar);
-    width: 12px;
+    width: 10px;
     border-radius: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--blue-scrollbar);
-    width: 12px;
-    border-radius: 15px;
+    width: 10px;
+    border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
